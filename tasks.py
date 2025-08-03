@@ -36,7 +36,7 @@ def build(c, output='build', ziparchive=None):
     args = [
         'pip', 'install',
         '-r', tmp.name,
-        '--python-version', '37',
+        '--python-version', '312',
         '--platform', PIP_PLATFORM,
         '--target "{}"'.format(output),
         '--no-compile',
